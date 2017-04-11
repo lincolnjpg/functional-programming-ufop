@@ -1,0 +1,1 @@
+let hasRoot a b c = (b ** 2.0 -. float_of_int 4 *. a *. c) >= float 0

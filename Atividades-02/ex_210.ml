@@ -1,0 +1,1 @@
+let netSalary baseSal = baseSal *. 1.1 -. baseSal *. 0.07

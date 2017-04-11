@@ -1,0 +1,11 @@
+a) eh valida e seu tipo eh "char list"
+b) eh valida e seu tipo eh "char * char * char"
+c) eh valida e seu tipo eh (bool * char) list
+d) eh valida e seu tipo eh "bool list * char list"
+e) eh valida e seu tipo eh "('a list -> 'a list) list"
+f) eh valida e seu tipo eh "'a list list"
+g) eh valida e seu tipo eh "int list list"
+h) eh valida e seu tipo eh "float * float * float"
+i) nao eh valida, pois tuplas so podem ter elementos do mesmo tipo
+j) nao eh valida, pois tuplas so podem ter elementos do mesmo tipo
+k) eh valida e seu tipo eh ('a list -> int) list

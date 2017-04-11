@@ -1,0 +1,35 @@
+a)
+
+Como 6 eh maior que 0, fat_aux, com os argumentos 6 - 1 e 6 * 1, nessa ordem, 
+sera chamada.
+
+Como 5 eh maior que 0, fat_aux, com os argumentos 5 - 1 e 5 * 6, nessa ordem, 
+sera chamada.
+
+Como 4 eh maior que 0, fat_aux, com os argumentos 4 - 1 e 4 * 30, nessa ordem, 
+sera chamada.
+
+Como 3 eh maior que 0, fat_aux, com os argumentos 3 - 1 e 3 * 120, nessa ordem, 
+sera chamada.
+
+Como 2 eh maior que 0, fat_aux, com os argumentos 2 - 1 e 2 * 360, nessa ordem, 
+sera chamada.
+
+Como 1 eh maior que 0, fat_aux, com os argumentos 1 - 1 e 1 * 720, nessa ordem, 
+sera chamada.
+
+Como 0 eh igual a zero, a recursividade ira terminar e seu valor, calculado no
+parametro f sera retornado.
+
+b)
+
+A funcao fat eh mais eficiente, pois eh uma funcao com recursividade de cauda.
+Quando uma funcao apresenta essa caracteristica, o compilador pode realizar a
+otimizacao dos recursos utilizados pela funcao. Como o resultado da recursao eh
+o resultado da propria funcao recursiva, o compilador nao precisa manter, a cada
+chamada recursiva, dados referentes a funcao chamadora. Ou seja, o compilador
+nao precisa criar um quadro para cada chamada recursiva da funcao, pois sempre
+que uma nova chamada eh realizada, o mesmo quadro eh atualizado. Portanto, caso
+o compilador esteja preparado para realizar tal tipo de otimizacao, funcoes com 
+recursividade de causa poderao rodar infinitamente sem que aconteca um estouro 
+de pilha.

@@ -1,0 +1,1 @@
+let howManySteps stepHeight goal = ceil (goal /. stepHeight)

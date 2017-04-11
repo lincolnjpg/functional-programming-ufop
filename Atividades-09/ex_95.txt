@@ -1,0 +1,4 @@
+a) int -> 'a * 'a * 'a -> 'a
+
+b) Nao, pois tanto a expressao utilizada em math como os padroes envolvidos (e seus
+respectivos resultados) devem ser do mesmo tipo. 

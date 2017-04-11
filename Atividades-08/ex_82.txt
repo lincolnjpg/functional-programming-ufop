@@ -1,0 +1,28 @@
+a) a funcao calcula a cabeca da cauda de uma lista, ou seja, seu segundo elemento.
+seu tipo eh: "'a list -> 'a"
+
+b) o valor da funcao eh o primeiro parametro e seu tipo eh: 'a -> 'b -> 'a
+
+c) a funcao recebe um par como argumento e retorna essa par invertido
+
+d) a funcao apply recebe dois argumentos e o aplica o primeiro no segundo. ou seja,
+o primeiro argumento (f) deve ser uma funcao (como "abs") e o segundo (x) deve
+ser um argumento valido para essa funcao. o retorno de apply sera do primeiro
+argumento aplicado no segundo. exemplo: apply abs (-12) resulta em 12.
+
+e) a fucao flip recebe tres argumentos e, assim, como a anterior, espera que
+possa aplicar o primeiro nos outros dois. porem, antes de aplicar o primeiro
+argumento (uma funcao) nos demais, ela troca o segundo pelo terceiro. exemplo:
+flip (-) 8 14 = 6, ao inves de -6
+
+f) a funcao pair recebe dois argumentos e retorna uma tupla (de dois elementos)
+foramada por eles
+
+g) a funcao palindrome recebe uma lista como argumento, inverte essa lista e
+verifica se ela eh igual a lista original. o retorno eh um valor do tipo bool
+
+h) a funcao twice recebe dois argumentos, aplica o primeiro no segundo e aplica 
+o primeiro novamente nesse novo valor gerado.
+
+i) a funcao mostra recebe uma tupla de dois elementos (do tipo string * int) e 
+retorna um valor do tipo string, formado pelos elementos da tupla recebida.

@@ -1,0 +1,1 @@
+let mySqrt x = (x ** 2.0) *. (float_of_int 2)

@@ -1,0 +1,3 @@
+Romildo, como as tarefas desse capitulo 11 compartilham o mesmo objetivo,
+que é gerar o cupom fiscal de uma compra de supermercado, resolvi deixar 
+todas as funcoes num unico arquivo-fonte.

@@ -1,0 +1,7 @@
+a) eh valida, seu tipo eh int e seu valor eh 2.
+
+b) invalida. erro de sintaxe.
+
+c) eh valida, seu tipo eh string e seu valor eh "abcdef"
+
+d) invalida. erro de sintaxe.

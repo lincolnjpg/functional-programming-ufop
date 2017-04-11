@@ -1,0 +1,29 @@
+a) if sqrt (abs_float (10.0 -. 35.0) *. 100.0) < 5.0 then "aceito" else "negado"
+
+Valor: "negado", Tipo: string
+
+b) if pred (int_of_char 'B') then 10 else 20
+
+Erro: A condição deve ser uma expressão booleana (o valor da funcao pred é um int).
+
+c) if 1 mod 2 <> 0 then sqrt 0.09 else Char.lowercase 'B'
+
+Erro: A expressão especificada em then e em else precisam ser do mesmo tipo.
+
+d) 4 * if 'B' < 'A' then 2 + 3 else 2 - 3
+
+Valor: -4, Tipo: int
+
+e) compare (if 'B' < 'A' then 2 + 3 else 2) 3
+
+Valor: -1, Tipo: int
+
+f) if 5 > 0  then "minas gerais"
+
+Erro: A expressão especificada em then e em else precisam ser do mesmo tipo.
+Nesse caso, o else foi omitido, indicando que seu tipo é unit, que é diferente
+do tipo especificado em then (string).
+
+g) if 5 > 0 then print_string "minas gerais"
+
+Valor: Tupla vazia, Tipo: unit

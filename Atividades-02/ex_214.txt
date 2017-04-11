@@ -1,0 +1,7 @@
+(*
+
+1) int, pois o operador * só pode ser quando os operandos são do tipo int
+2) bool, pois a função só pode retornar dois valores: true ou false
+3) int, pois o operador / só pode ser quando os operandos são do tipo int
+
+*)

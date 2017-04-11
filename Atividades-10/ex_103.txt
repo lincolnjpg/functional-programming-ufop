@@ -1,0 +1,7 @@
+Tipo mais geral de 
+
+fun a (m, n) -> if a then (m +. n) ** 2. else (m +. n) ** 3. 
+
+eh bool -> float * float -> float.
+
+
